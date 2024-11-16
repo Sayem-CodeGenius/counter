@@ -1,0 +1,46 @@
+/* CSS COMMON START */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CSS COMMON END */
+
+/* counter section */
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    max-width: 600px;
+}
+.counter * {
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
